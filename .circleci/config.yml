@@ -13,4 +13,4 @@ jobs:
           command: date
       - run:
           name: Show index.html
-          command: start index.html
+          command: xdg-open index.html
